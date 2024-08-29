@@ -15,5 +15,4 @@ app.get('/', (req, res) => {
     res.send('Cesar dev')
 })
 
-//activar puerto 5000
 app.listen(PORT, () => console.log(`Escuchando ${PORT}`));
