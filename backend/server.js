@@ -11,6 +11,7 @@ const PORT = process.env.PORT | 5000
 app.use(express.json())
 app.use(cors())
 
+//metodo get port 3000
 app.get('/', (req, res) => {
     res.send('Cesar dev')
 })
